@@ -35,4 +35,4 @@ SOFTWARE.
 ## Support and contact details
 Contact on 0792174007 or email at jamesoduorochieng6@gmail.com
 
-                                                                 Copyright (c) {2018} **james oduor ochienge**
+   Copyright (c) {2018} **james oduor ochienge**
