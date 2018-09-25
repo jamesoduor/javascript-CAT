@@ -10,6 +10,8 @@ This is an application meant to provide questions for javascript students at the
 this application does not  require any other code.
 ## Known Bugs
 sending butch email
+link to my application
+https://jamesoduor.github.io/javascript-CAT/
 ## Technologies Used
 1.HTML
 2.CSS
@@ -17,4 +19,4 @@ sending butch email
 ## Support and contact details
 for more information contact on 0792174007 or email at jamesoduorochieng6@gmail.com
 ### License
-Copyright (c) {2018} **james oduor ochieng**
+Copyright (c) {2018} **james oduor ochienge**
