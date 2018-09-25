@@ -9,7 +9,7 @@
 
 {this application does not  require any other code.}
 ## Known Bugs
-{}
+{sending butch email}
 ## Technologies Used
 {1.HTML
 2.CSS
@@ -17,5 +17,4 @@
 ## Support and contact details
 {for more information contact on 0792174007 or email at jamesoduorochieng6@gmail.com}
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
 Copyright (c) {2018} **{james oduor ochieng}**
