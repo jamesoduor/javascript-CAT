@@ -1,5 +1,5 @@
 # Java Script (CAT)
-#### Quiz Board {25th,september, 2018}
+#### Quiz Board {25th September, 2018}
 #### By **James Oduor Ochieng**
 ## Description
 This is an application meant to provide questions for javascript students at the end of their course. The questions have multiple choices for the student to choose from and later gives the points the student has scored.
@@ -33,6 +33,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Support and contact details
-contact on 0792174007 or email at jamesoduorochieng6@gmail.com
+Contact on 0792174007 or email at jamesoduorochieng6@gmail.com
 
-Copyright (c) {2018} **james oduor ochienge**
+                                                                 Copyright (c) {2018} **james oduor ochienge**
