@@ -9,124 +9,39 @@
    </head>
    <body>
      <div class="container">
+
+       <div class="well">
+           <div class="jumbotron">
        <h1>JavaScript CAT</h1>
-       <p>Below are some questions concerning what we have learnt on JavaScript</p>
-       <p>Choose from the choices below</p>
-       <form id="james" name="james">
-         <ol>
-           <li>
-             <label class="official">What is the official name of javascript?</label>
-             <div class="radio">
-               <label>
-               <input type="radio" name="question1" value="HTML">
-                  HTML
-                </label>
+   <img src ="jamesw.jpg">
+         <div id="all">
+           <p>Below are some questions concerning what we have learnt on JavaScript</p>
+           <p>Choose from the choices below</p>
+             <form id ="quiz" name="quiz">
+               <div class=bg-success>
+               Q1. What is the official name of java script?<br>
+                 <input type ="radio" name="q1" value="HTML">HTML</br>
+                 <input type ="radio" name="q1" value="ECMAS">ECMAS</br>
+                 <input type ="radio" name="q1" value="CSS">CSS</br><br>
+               Q2. What is JavaScript?<br>
+                 <input type ="radio" name="q2" value="A language tha interact with the user">A language that interact with the user</br>
+                 <input type ="radio" name="q2" value="A language that is used for styling">A language that is used for styling</br>
+                 <input type ="radio" name="q2" value="A mark up language">A mark up language</br><br>
+               Q3. We use console to detect if there is an error<br>
+                 <input type ="radio" name="q3" value="true">true</br>
+                 <input type ="radio" name="q3" value="false">false</br><br>
+               Q4. Operator are special character that indicates an action<br>
+                 <input type ="radio" name="q4" value="TRUE">TRUE</br>
+                 <input type ="radio" name="q4" value="FALSE">FALSE</br><br>
+               Q5. Is infinity a nomber?<br>
+                <input type ="radio" name="q5" value="YES">YES</br>
+                <input type ="radio" name="q5" value="NO">NO</br><br>
               </div>
-              <div class="radio">
-                <label>
-               <input type="radio"  name="question1" value="ECMAS">
-               ECMAS
-             </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio"  name="question1" value="CSS">
-                CSS
-            </label>
-          </div>
-        <li>
-            <label class="form-name">What is a Javascript?</label>
-        </li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question2" value="A language that is used for styling">
-              A language that is used for styling.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio"  name="question2" value="A language that interact with a user.">
-              A language that interact with the user.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio"  name="question2" value="A mark up  language.">
-              A mark up languaguage.
-          </label>
+                <input type ="button" value="submit" onclick="check()">
+            <div id = "answer">
+            <p id ="answer"></p>
          </div>
-         <li>
-           <label class="form-name">We use console to detect if there is an error or not and also to display.</label>
-         </li>
-         <div class="radio">
-           <label>
-              <input type="radio" name="question3" value="YES">
-                YES.
-           </label>
-         </div>
-         <div class="radio">
-           <label>
-             <input type="radio"  name="question3" value="NO.">
-               NO.
-           </label>
-         </div>
-         <li>
-            <label class ="form-name">operators are special charactors tha indicates an action to be performed.</label>
-         </li>
-         <div class="radio">
-           <label>
-             <input type="radio" name="question4" value="True">
-               True
-           </label>
-         </div>
-         <div class="radio">
-            <label>
-              <input type="radio" name="question4" value="false">
-                false
-            </label>
-          </div>
-          <li>
-            <label class ="form-name">Is infinity a number?</label>
-          </li>
-          <div class="radio">
-             <label>
-               <input type="radio" name="question5" value="YES">
-                 YES
-             </label>
-           </div>
-           <div class="radio">
-             <label>
-               <input type="radio" name="question5" value="NO">
-                NO
-             </label>
-           </div>
-          <li>
-            <label class ="form-name">What is a modulo operator?</label>
-          </li>
-          <div class="radio">
-            <label>
-               <input type="radio" name="question6" value="An operator tha devides two numbers">
-                  An operator that devides two numbers.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question6" value="An operator that multiply two numbers.">
-                 An operator that multiply two numbers.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question6" value="An operator that gives remainder of dividing two numbers">
-                 An operator that gives a remainder of dividing two numbers
-            </label>
-          </div>
-          <button type="button" class="btn"  onclick="checked();">submit</button>
-            </form>
-            <div id="after_submit">
-            <p id ="number_correct"></p>
-              <script src="js/scripts.js"></script>
-          </div>
+       </form>
     </div>
-   </body>
+  </body>
 </html>

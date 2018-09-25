@@ -1,30 +1,26 @@
-function checked(){
-  var question1 =  document.getElementByName("question1").value;
-  var question2 =  document.getElementByName("question2").value;
-  var question3 =  document.getElementByName("question3").value;
-  var question4 =  document.getElementByName("question4").value;
-  var question5 =  document.getElementByName("question5").value;
-  var question6 =  document.getElementByName("question6").value;
-  var correct = 0;
-  if (question1=="ECMAS"){
-    correct+=16;
-  } else (question1=="HTML"||"CSS") {
-    correct+=0
+function check() {
+  var q1 = document.quiz.q1.value;
+  var q2 = document.quiz.q2.value;
+  var q3 = document.quiz.q3.value;
+  var q4 = document.quiz.q4.value;
+  var q5 = document.quiz.q5.value;
+  var result = 0;
+  if(q1=="ECMAS") {
+    result+=30;
   }
-  if (question2=="A language that interact with the user") {
-    correct+=16;
-  } else (quetion2==""){
-  if (question3=="YES"){
-    correct+=16;
+  if(q2=="A language tha interact with the user") {
+    result+=20;
   }
-  if (question4=="True"){
-    correct+=16;
+  if(q3=="true") {
+    result+=30;
   }
-  if (question5=="YES"){
-    correct+=16;
+  if(q4=="TRUE") {
+    result+=10;
   }
-  if (question6=="Aperator that give a remainder of dividing two numbers"){
-    correct+=20;
+  if(q5=="YES") {
+    result+=10;
   }
-  document.getElementById("number_correct").innerHTML=correct;
+  document.getElementById("answer").style.visibility="visible";
+  document.getElementById("answer").innerHTML="you got "+result+" marks";
+  document.getElementById("all").style.visibility="hidden";
 }
