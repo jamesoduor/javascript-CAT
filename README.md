@@ -1,20 +1,23 @@
-# Java script CAT
-#### This application is mainly to provide questions for the java script students and also allow them to choose from the multiple choices available then given some marks, 25th,september, 2018
-#### By **James oduor ochieng**
+# Java Script (CAT)
+#### Quiz Board {25th September, 2018}
+#### By **James Oduor Ochieng**
 ## Description
-This is an application meant to provide questions for javascript students at the end of their course it also provide multiple choices for the student to choose from and gives the score of the student in-terms of correct answers given  
-## Setup/Installation Requirements
-* required to install atom
-* required to to install bootstrap
+This is an application meant to provide questions for javascript students at the end of their course.It also provides multiple choices for the students to choose from and gives the score-points at the end of the completion of the questions.
 
-this application does not  require any other code.
-## Known Bugs
-sending butch email
+## Setup/Installation Requirements
+This app can be opened by using either a smartphone or computer device with internet accessibility in place. Kindly feel free to access the app through, 
 ## Technologies Used
-1.HTML
-2.CSS
- 3.javascript
-## Support and contact details
-for more information contact on 0792174007 or email at jamesoduorochieng6@gmail.com
+HTML
+CSS
+Javascript
+
 ### License
+
+
+
+
+
+## Support and contact details
+Contact on 0792174007 or email at jamesoduorochieng6@gmail.com
+
 Copyright (c) {2018} **james oduor ochieng**
